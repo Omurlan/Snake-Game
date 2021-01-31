@@ -1,0 +1,39 @@
+body {
+    position: relative;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.button-block {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 608px;
+    width: 608px;
+}
+
+#restart {
+    display: none;
+    padding: 10px;
+    font-size: 35px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+#restart:hover {
+    cursor: pointer;
+}
+
+#restart:active {
+    font-size: 34px;
+    transition: all 0.1s; 
+}
